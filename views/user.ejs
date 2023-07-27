@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-   index
+    <% for (const row of data) { %>
+        <p><%= row.email %></p>
+    <% } %>
 </body>
 </html>
